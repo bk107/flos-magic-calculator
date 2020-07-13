@@ -1,0 +1,31 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  max-width: 425px;
+  width: 100%;
+  transform: translate(-50%,0);
+}
+
+.nav {
+  display: flex;
+  background: rgb(50, 50, 50);
+  justify-content: space-between;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav a:-webkit-any-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav a:-webkit-any-link.selected {
+  background: white;
+  color: rgb(50, 50, 50);
+}

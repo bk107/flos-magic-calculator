@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body, #root {
+  height:100%;
+}
+
+html.light,
+body.light {
+  color: rgb(34, 34, 34);
+  background: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  margin: 0 auto;
+  min-height:100%;
+}
+
+.App.dark {
+  background: rgb(34, 34, 34);
+  color: white;
+}
+
+.App.light {
+  color: rgb(34, 34, 34);
+  background: white;
+}
+
+.App h1 {
+  position: sticky;
+  top: 0;
+  display: block;
+  text-align: center;
+}
+
+:root {
+  font-size: 20px;
+}
+
+a:-webkit-any-link {
+  color: black;
+  text-decoration: none;
+}
+
+.tile-button {
+  border: 1px solid black;
+  margin-top: 30px;
+  padding: 20px;
+  width: 100%;
+  background: rgb(50, 50, 50);
+  color: white;
+  border: 0;
+  border-radius: 6px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  background: rgb(50, 50, 50);
+  border: 0;
+  color: white;
+  border-radius: 6px;
+}
+
+input,
+button {
+  font-size: 20px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  font-size: 20px;
+}
+
+.results {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.form-group {
+  align-items: center;
+}
+
+.result-group,
+.form-group {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 10px;
+}
+
+.result-group {
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.result-group .label {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.result-group .value {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.form-group input {
+  max-width: 35%;
+  text-align: right;
+}
+
+.form-group .input-group {
+  text-align: center;
+  display: table-column-group;
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.form-group .input-group input {
+  max-width: 35%;
+  text-align: center;
+}
+
+.form-group .input-group input:last-child {
+  margin-left: 2px;
+}
+
+.container {
+}
+/* disable auto-zoom on iphone input field focus */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    /* border: 1px solid rgb(50, 50, 50); */
+  }
+}

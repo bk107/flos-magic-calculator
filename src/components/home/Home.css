@@ -1,0 +1,39 @@
+.home {
+  height: 100%;
+  max-width: 645px;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  max-width: 40px;
+}
+header {
+  text-align: center;
+  width: 100%;
+}
+.MuiTabs-flexContainer {
+  justify-content: space-between;
+}
+
+.MuiTabs-root {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.PrivateTabIndicator-colorSecondary-3,
+.MuiTabs-indicator {
+  background-color: white !important;
+  bottom: unset;
+  top: 0;
+}
+
+.Mui-selected .MuiTab-wrapper {
+  color: white;
+  font-weight: bold;
+}

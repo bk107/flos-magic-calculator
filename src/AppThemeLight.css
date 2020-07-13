@@ -1,0 +1,43 @@
+
+
+.App.light {
+  color: rgb(34, 34, 34);
+  background: white;
+}
+
+.App.light h1,
+.App.light h3, .App.light h2 {
+  color: rgb(34, 34, 34);
+}
+
+.App.light a:-webkit-any-link {
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+}
+
+.App.light input[type="number"] {
+  background: rgba(222, 222, 222, 0.8);
+  color: rgb(34, 34, 34);
+}
+
+.App.light .form-group label {
+  color: rgb(34, 34, 34);
+}
+
+.App.light .results {
+  color: rgb(34, 34, 34);
+}
+
+.App.light .settings label {
+      color: rgb(34, 34, 34);
+}
+
+
+.App.light .PrivateTabIndicator-colorSecondary-3, .App.light .MuiTabs-indicator {
+    background-color:rgb(34, 34, 34) !important;
+}
+
+.App.light .Mui-selected .MuiTab-wrapper {
+    color:rgb(34, 34, 34);
+    font-weight: bold;
+} 

@@ -1,0 +1,18 @@
+.settings h2{
+
+}
+
+.toggle-group {
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.toggle-group label {
+    margin-left:15px;
+}
+
+.settings-group {
+    margin-top:50px;
+}
