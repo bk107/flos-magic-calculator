@@ -31,7 +31,7 @@ const Settings = (props) => {
     return (
 
         <div className="settings" >
-            <h2> Einstellungen git </h2>
+            <h2> Einstellungen </h2>
             {
                 render ?
                     <>
